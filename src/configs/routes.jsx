@@ -1,6 +1,6 @@
+import UseMemoDemo from "../pages/MemoDemo";
 import UseCallbackDemo from "../pages/UseCallbackDemo";
 import UseEffectDemo from "../pages/UseEffectDemo";
-import UseMemoDemo from "../pages/UseMemoDemo";
 import UseReducerDemo from "../pages/UseReducerDemo";
 import UseRefDemo from "../pages/UseRefDemo";
 import UseStateDemo from "../pages/UseStateDemo";
