@@ -1,6 +1,7 @@
 import AsyncCrud from "../pages/AsyncCrud";
 import AxiosCrud from "../pages/AxiosCrud";
 import FetchCrud from "../pages/FetchCrud";
+import Home from "../pages/Home";
 import MemoDemo from "../pages/MemoDemo";
 import UseCallbackDemo from "../pages/UseCallbackDemo";
 import UseEffectDemo from "../pages/UseEffectDemo";
@@ -10,6 +11,7 @@ import UseRefDemo from "../pages/UseRefDemo";
 import UseStateDemo from "../pages/UseStateDemo";
 
 export const demoRoutes = [
+    { path: "/", element: <Home /> },
     { path: "use-state", element: <UseStateDemo /> },
     { path: "use-effect", element: <UseEffectDemo /> },
     { path: "use-reducer", element: <UseReducerDemo /> },
