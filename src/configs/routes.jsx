@@ -1,4 +1,5 @@
 import AsyncCrud from "../pages/AsyncCrud";
+import AxiosCrud from "../pages/AxiosCrud";
 import FetchCrud from "../pages/FetchCrud";
 import MemoDemo from "../pages/MemoDemo";
 import UseCallbackDemo from "../pages/UseCallbackDemo";
@@ -17,7 +18,7 @@ export const demoRoutes = [
     { path: "memo", element: <MemoDemo /> },
     { path: "use-callback", element: <UseCallbackDemo /> },
     { path: "fetch-todo", element: <FetchCrud /> },
-    { path: "axios-todo", element: <UseCallbackDemo /> },
+    { path: "axios-todo", element: <AxiosCrud /> },
     { path: "async-todo", element: <AsyncCrud /> },
 
 ];
